@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Prithis App</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0E0F11;
+            color: #DBDEE1;
+            line-height: 1.7;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { color: #5865F2; font-size: 2rem; margin: 2rem 0 1rem; border-bottom: 2px solid #5865F2; padding-bottom: 0.5rem; }
+        h2 { color: #7983F5; font-size: 1.4rem; margin: 1.8rem 0 0.8rem; }
+        h3 { color: #57F287; font-size: 1.1rem; margin: 1.2rem 0 0.5rem; }
+        p { margin: 0.5rem 0 1rem; }
+        ul { margin: 0.5rem 0 1rem 1.5rem; }
+        li { margin: 0.3rem 0; }
+        .highlight { background: #1E1F22; border-left: 4px solid #5865F2; padding: 12px 16px; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+        .green-highlight { background: #1E1F22; border-left: 4px solid #57F287; padding: 12px 16px; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+        .last-updated { color: #80848E; font-size: 0.85rem; margin-top: 2rem; border-top: 1px solid #2C2D31; padding-top: 1rem; }
+        a { color: #5865F2; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        th, td { padding: 10px 12px; text-align: left; border: 1px solid #2C2D31; }
+        th { background: #1E1F22; color: #7983F5; }
+        td { background: #161718; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p><strong>Prithis App</strong> — Last updated: April 29, 2026</p>
+
+<div class="highlight">
+    <strong>TL;DR:</strong> We collect only the data necessary to provide our location sharing and messaging services. All data transmitted from your device is encrypted in transit and at rest. We do not sell your data to third parties.
+</div>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy describes how Prithis App ("we", "us", "our") collects, uses, and protects your personal information when you use our mobile application and related services. By using Prithis App, you agree to the practices described in this policy.</p>
+
+<h2>2. Permissions We Request & Why</h2>
+<p>Our app requests the following device permissions. Each permission is used solely for its stated purpose — never for covert data collection.</p>
+
+<table>
+    <tr><th>Permission</th><th>Purpose</th><th>Data Collected</th></tr>
+    <tr>
+        <td><strong>Camera</strong></td>
+        <td>Capture profile photos and share images in chat</td>
+        <td>Photos you choose to take or share</td>
+    </tr>
+    <tr>
+        <td><strong>Location (Fine, Coarse, Background)</strong></td>
+        <td>Core feature: share your real-time GPS location with friends you choose</td>
+        <td>GPS coordinates, speed, heading, altitude, accuracy</td>
+    </tr>
+    <tr>
+        <td><strong>Read Media / External Storage</strong></td>
+        <td>Pick photos from your gallery to share in chat or set as avatar</td>
+        <td>Only images you explicitly select</td>
+    </tr>
+    <tr>
+        <td><strong>Record Audio</strong></td>
+        <td>Voice messages and video recording features</td>
+        <td>Audio/video you choose to record and send</td>
+    </tr>
+    <tr>
+        <td><strong>Notifications</strong></td>
+        <td>Alert you to messages, friend requests, and SOS alerts</td>
+        <td>No personal data — notification tokens only</td>
+    </tr>
+    <tr>
+        <td><strong>Foreground Service (Location)</strong></td>
+        <td>Keep location sharing active when the app is in the background</td>
+        <td>Same as Location above</td>
+    </tr>
+    <tr>
+        <td><strong>Internet</strong></td>
+        <td>Communicate with our servers for all app features</td>
+        <td>All data described above is transmitted over encrypted connections</td>
+    </tr>
+</table>
+
+<h2>3. Data We Collect</h2>
+
+<h3>3.1 Information You Provide</h3>
+<ul>
+    <li><strong>Account info:</strong> Display name, email address (via Google Sign-In)</li>
+    <li><strong>Profile photo:</strong> Avatar image you upload</li>
+    <li><strong>Chat messages:</strong> Text, images, and videos you send</li>
+    <li><strong>Friends list:</strong> Track IDs of users you connect with</li>
+</ul>
+
+<h3>3.2 Data Collected Automatically</h3>
+<ul>
+    <li><strong>Location data:</strong> Real-time GPS coordinates, speed, heading, altitude, and accuracy — only when location sharing is active</li>
+    <li><strong>Location history:</strong> Path history retained for up to 24 hours, then automatically purged</li>
+    <li><strong>Device info:</strong> GPS provider type (e.g., "gps") for accuracy filtering</li>
+</ul>
+
+<h3>3.3 Data We Do NOT Collect</h3>
+<div class="green-highlight">
+    We do <strong>not</strong> collect: contacts list, call logs, SMS messages, browsing history, device identifiers (IMEI/Android ID), installed apps, or any data beyond what is listed above.
+</div>
+
+<h2>4. How We Use Your Data</h2>
+<ul>
+    <li><strong>Location sharing:</strong> To display your position on a map to friends you've explicitly connected with</li>
+    <li><strong>Messaging:</strong> To deliver chat messages, images, and videos between you and your contacts</li>
+    <li><strong>SOS alerts:</strong> To broadcast your location to friends in an emergency (expires after 4 hours)</li>
+    <li><strong>Map matching:</strong> To snap GPS points to roads for improved accuracy (via Mapbox API)</li>
+    <li><strong>Authentication:</strong> To verify your identity via Google Sign-In and JWT tokens</li>
+    <li><strong>Service improvement:</strong> Kalman filtering to improve location accuracy</li>
+</ul>
+
+<h2>5. Data Encryption & Security</h2>
+<div class="green-highlight">
+    <strong>Every piece of data leaving your device is encrypted.</strong>
+</div>
+<ul>
+    <li><strong>In transit:</strong> All network communication uses HTTPS/TLS encryption. API requests are authenticated with JWT Bearer tokens.</li>
+    <li><strong>At rest:</strong> Location coordinates are stored with AES-256 encrypted representations (encryptedCoords field). MongoDB Atlas encrypts stored data and backups.</li>
+    <li><strong>Authentication:</strong> Passwords are hashed (bcrypt). Google Sign-In uses OAuth 2.0. JWT tokens expire after 7 days.</li>
+    <li><strong>Image storage:</strong> Photos uploaded to Cloudinary are served over HTTPS with auto-compression and format optimization.</li>
+    <li><strong>Access control:</strong> Users can only access their own data. Friend location visibility requires mutual connection.</li>
+</ul>
+
+<h2>6. Third-Party Services</h2>
+<table>
+    <tr><th>Service</th><th>Purpose</th><th>Data Shared</th><th>Policy</th></tr>
+    <tr>
+        <td>Google Sign-In</td>
+        <td>Authentication</td>
+        <td>Email, name, profile photo</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+    </tr>
+    <tr>
+        <td>MongoDB Atlas</td>
+        <td>Database hosting</td>
+        <td>All app data (encrypted at rest)</td>
+        <td><a href="https://www.mongodb.com/legal/privacy/privacy-policy">MongoDB Privacy</a></td>
+    </tr>
+    <tr>
+        <td>Cloudinary</td>
+        <td>Image & video hosting</td>
+        <td>Photos/videos you upload</td>
+        <td><a href="https://cloudinary.com/privacy">Cloudinary Privacy</a></td>
+    </tr>
+    <tr>
+        <td>Mapbox</td>
+        <td>Map display & road snapping</td>
+        <td>Anonymized GPS points for map matching</td>
+        <td><a href="https://www.mapbox.com/privacy/">Mapbox Privacy</a></td>
+    </tr>
+</table>
+<p>We do not share your personal data with any other third parties. We do not sell your data.</p>
+
+<h2>7. Data Retention</h2>
+<ul>
+    <li><strong>Location path history:</strong> Automatically deleted after 24 hours</li>
+    <li><strong>SOS alerts:</strong> Automatically expire after 4 hours</li>
+    <li><strong>Chat messages:</strong> Retained until you or the recipient delete them</li>
+    <li><strong>Account data:</strong> Retained while your account is active. Deleted upon account deletion request.</li>
+    <li><strong>Images:</strong> Stored on Cloudinary until message deletion or account removal</li>
+</ul>
+
+<h2>8. Your Rights & Choices</h2>
+<ul>
+    <li><strong>Location control:</strong> You can stop sharing your location at any time by disabling location sharing in the app. Background location requires explicit foreground service notification.</li>
+    <li><strong>Privacy modes:</strong> Choose who can see your location — Everyone, Contacts Only, or Selected friends only.</li>
+    <li><strong>Block users:</strong> Block any user from seeing your location or contacting you.</li>
+    <li><strong>Data deletion:</strong> Request full account and data deletion by contacting us.</li>
+    <li><strong>Permission revocation:</strong> You can revoke any permission at any time via Android Settings → Apps → Prithis → Permissions.</li>
+</ul>
+
+<h2>9. Children's Privacy</h2>
+<p>Prithis App is not intended for children under 13. We do not knowingly collect personal information from children under 13. If we learn we have collected data from a child under 13, we will delete it promptly.</p>
+
+<h2>10. International Users</h2>
+<p>Your data may be processed and stored on servers outside your country of residence. By using our service, you consent to the transfer of your data to our servers and third-party services (MongoDB Atlas, Cloudinary, Mapbox) which may operate in different jurisdictions.</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of significant changes via the app or by updating the "Last updated" date above. Continued use after changes constitutes acceptance.</p>
+
+<h2>12. Contact Us</h2>
+<p>If you have questions about this Privacy Policy, your data, or wish to request data deletion, please contact:</p>
+<ul>
+    <li>Email: <a href="mailto:prithvipatil494@gmail.com">prithvipatil494@gmail.com</a></li>
+    <li>GitHub: <a href="https://github.com/prithvipatil494-hub">github.com/prithvipatil494-hub</a></li>
+</ul>
+
+<p class="last-updated">Last updated: April 29, 2026 · Version 1.0</p>
+
+</body>
+</html>
